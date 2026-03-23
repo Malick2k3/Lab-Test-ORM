@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node book-management-api/server.js",
     "dev": "nodemon book-management-api/server.js",
-    "check:syntax": "node --check book-management-api/server.js && node --check book-management-api/config/db.js && node --check book-management-api/models/book.js && node --check book-management-api/routes/books.js"
+    "check:syntax": "node --check book-management-api/server.js && node --check book-management-api/app.js && node --check book-management-api/config/db.js && node --check book-management-api/models/book.js && node --check book-management-api/routes/books.js && node --check book-management-api/controllers/booksController.js && node --check book-management-api/middleware/errorHandler.js && node --check book-management-api/middleware/notFound.js"
   },
   "engines": {
     "node": ">=18"

@@ -9,16 +9,25 @@ const Book = sequelize.define('books', {
     },
     title: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
     },
     author: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
     },
     isbn: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true
+        unique: true,
+        validate: {
+            notEmpty: true
+        }
     },
     publication_year: {
         type: DataTypes.INTEGER
@@ -38,7 +47,8 @@ const Book = sequelize.define('books', {
     tableName: 'books',
     timestamps: true,  
     createdAt: 'created_at',  
-    updatedAt: 'updated_at'   
+    updatedAt: 'updated_at',
+    underscored: true
 });
 
 module.exports = Book;
