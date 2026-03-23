@@ -22,25 +22,24 @@ Book Management API is a backend service for managing a book catalog with Node.j
 ## Project structure
 
 ```text
-Lab-Test-ORM/
-|-- book-management-api/
-|   |-- config/
-|   |   `-- db.js
-|   |-- controllers/
-|   |   `-- booksController.js
-|   |-- middleware/
-|   |   |-- errorHandler.js
-|   |   `-- notFound.js
-|   |-- models/
-|   |   `-- book.js
-|   |-- routes/
-|   |   `-- books.js
-|   |-- app.js
-|   `-- server.js
+book-management-api/
+|-- config/
+|   `-- db.js
+|-- controllers/
+|   `-- booksController.js
+|-- middleware/
+|   |-- errorHandler.js
+|   `-- notFound.js
+|-- models/
+|   `-- book.js
+|-- routes/
+|   `-- books.js
 |-- .env.example
+|-- app.js
 |-- curl_commands.txt
 |-- package.json
-`-- README.md
+|-- README.md
+`-- server.js
 ```
 
 ## API routes
