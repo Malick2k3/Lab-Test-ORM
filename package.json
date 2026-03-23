@@ -1,0 +1,35 @@
+{
+  "name": "shelftrack-api",
+  "version": "1.0.0",
+  "description": "Backend API for managing a book catalog with Express, Sequelize, and MySQL.",
+  "main": "book-management-api/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node book-management-api/server.js",
+    "dev": "nodemon book-management-api/server.js",
+    "check:syntax": "node --check book-management-api/server.js && node --check book-management-api/config/db.js && node --check book-management-api/models/book.js && node --check book-management-api/routes/books.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mysql2": "^3.15.2",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest-api",
+    "books"
+  ],
+  "author": "",
+  "license": "MIT"
+}
