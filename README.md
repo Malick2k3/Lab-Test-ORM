@@ -105,4 +105,5 @@ If the database connection works, the service will start on `http://localhost:30
 npm run dev
 npm run start
 npm run check:syntax
+npm run test:api
 ```
