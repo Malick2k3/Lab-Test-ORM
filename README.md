@@ -1,8 +1,6 @@
-# ShelfTrack API
+# Book Management API
 
-ShelfTrack API is a backend service for managing a book catalog with Node.js, Express, Sequelize, and MySQL.
-
-The project started as a small ORM lab, but it is being cleaned up into something that looks more like a real backend portfolio piece. The scope is still modest, but the structure is now clearer and the API is no longer limited to just listing and creating books.
+Book Management API is a backend service for managing a book catalog with Node.js, Express, Sequelize, and MySQL.
 
 ## What it does
 
@@ -109,23 +107,3 @@ npm run dev
 npm run start
 npm run check:syntax
 ```
-
-## What improved from the original version
-
-- clearer project identity
-- real package metadata and installable dependencies
-- health route
-- cleaner app/server split
-- CRUD coverage instead of just list/create
-- central controller and middleware structure
-- safer request handling and more consistent responses
-
-## What is still missing
-
-- automated tests
-- request-level validation middleware
-- pagination on the list endpoint
-- deployment setup
-- authentication if this grows into a multi-user service
-
-Those are the next logical upgrades. The project is already in a better place than a raw lab submission, but it is not pretending to be production-ready yet.

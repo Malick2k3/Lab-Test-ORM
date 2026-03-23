@@ -13,7 +13,7 @@ async function startServer() {
         console.log('Database synced.');
 
         app.listen(PORT, () => {
-            console.log(`ShelfTrack API running on http://localhost:${PORT}`);
+            console.log(`Book Management API running on http://localhost:${PORT}`);
         });
     } catch (error) {
         console.error('Failed to start server:', error);

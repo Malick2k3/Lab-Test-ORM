@@ -1,5 +1,5 @@
 {
-  "name": "shelftrack-api",
+  "name": "book-management-api",
   "version": "1.0.0",
   "description": "Backend API for managing a book catalog with Express, Sequelize, and MySQL.",
   "main": "book-management-api/server.js",
